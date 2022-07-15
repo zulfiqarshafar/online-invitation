@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+}
+
+.homepage {
+  background: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  align-items: center;
+}
