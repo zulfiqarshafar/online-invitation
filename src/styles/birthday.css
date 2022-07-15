@@ -201,6 +201,10 @@ main {
     align-items: flex-start;
   }
 
+  .event__image img {
+    width: 60vw;
+  }
+
   .info,
   .prokes {
     width: 100%;
