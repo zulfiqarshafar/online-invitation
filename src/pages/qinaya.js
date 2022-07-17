@@ -100,8 +100,7 @@ const Qinaya = ({ location }) => {
                 <li>
                   <img src={wash} alt="wash hands" />
                   <p>
-                    Mencuci tangan <br />
-                    atau menggunakan hand sanitizer
+                    Mencuci tangan
                   </p>
                 </li>
                 <li>
