@@ -4,7 +4,7 @@ import castle from "../assets/images/castle.png";
 import calendar from "../assets/images/icons8-calendar-96.png";
 import watch from "../assets/images/icons8-watch-96.png";
 import address from "../assets/images/icons8-address-96.png";
-// import kids from "../assets/images/kids.png";
+import kids from "../assets/images/kids.png";
 import facemask from "../assets/images/img-facemask.png";
 import wash from "../assets/images/img-wash.png";
 import distancing from "../assets/images/img-distancing.png";
@@ -79,12 +79,14 @@ const Qinaya = ({ location }) => {
           </div>
           <div className="section">
             <div className="dresscode">
-              <div className="dresscode__title">Dresscode</div>
-              <br />
-              <div className="dresscode__description">Colorful</div>
-              {/* <div className="dresscode__image">
+              <div className="dresscode__info">
+                <div className="dresscode__info__title">Dresscode</div>
+                <br />
+                <div className="dresscode__info__description">Colorful</div>
+              </div>
+              <div className="dresscode__image">
                 <img src={kids} alt="Kids" />
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="section">
@@ -92,18 +94,18 @@ const Qinaya = ({ location }) => {
               <div className="prokes__title">Protokol Kesehatan</div>
               <ul>
                 <li>
-                  <img src={facemask}  alt="facemask" />
+                  <img src={facemask} alt="facemask" />
                   <p>Menggunakan masker</p>
                 </li>
                 <li>
-                  <img src={wash}  alt="wash hands" />
+                  <img src={wash} alt="wash hands" />
                   <p>
                     Mencuci tangan <br />
                     atau menggunakan hand sanitizer
                   </p>
                 </li>
                 <li>
-                  <img src={distancing}  alt="distancing" />
+                  <img src={distancing} alt="distancing" />
                   <p>Menjaga jarak</p>
                 </li>
               </ul>
