@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/birthday.css";
 import castle from "../assets/images/castle.png";
+// import kids from "../assets/images/kids.png";
 import facemask from "../assets/images/img-facemask.png";
 import wash from "../assets/images/img-wash.png";
 import distancing from "../assets/images/img-distancing.png";
@@ -65,7 +66,10 @@ const Qinaya = ({ location }) => {
             <div className="dresscode">
               <div className="dresscode__title">Dresscode</div>
               <br />
-              Colorful
+              <div className="dresscode__description">Colorful</div>
+              {/* <div className="dresscode__image">
+                <img src={kids} alt="Kids" />
+              </div> */}
             </div>
           </div>
           <div className="section">

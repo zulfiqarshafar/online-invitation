@@ -136,6 +136,27 @@ main {
 
 .dresscode {
   text-align: center;
+  background: url("../assets/images/kids.png") center no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.dresscode__title,
+.dresscode__description {
+  position: relative;
+  top: 15vh;
+}
+
+.dresscode__image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 45%;
+}
+
+.dresscode__image img {
+  width: 30vw;
 }
 
 .prokes {
@@ -208,5 +229,11 @@ main {
   .info,
   .prokes {
     width: 100%;
+  }
+
+  .dresscode__title,
+  .dresscode__description {
+    position: relative;
+    top: 33%;
   }
 }
