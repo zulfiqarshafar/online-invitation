@@ -89,6 +89,9 @@ main {
 }
 
 .event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   height: 100vh;
 }
@@ -132,6 +135,24 @@ main {
 .info__title {
   margin-bottom: 1rem;
   text-align: center;
+}
+
+.info__date,
+.info__time,
+.info__location {
+  display: flex;
+  align-items: center;
+}
+
+.info__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.info__location .info__icon {
+  align-self: flex-start;
+  margin-top: 1.25rem;
 }
 
 .dresscode {
@@ -181,6 +202,10 @@ main {
   margin-top: 2rem;
 }
 
+.prokes li img {
+  width: 13%;
+}
+
 .footer {
   font-size: 5rem;
   font-family: "Cupid Love";
@@ -190,7 +215,7 @@ main {
 
 @media (max-width: 800px) {
   main {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 
   .ornament-left,
@@ -229,11 +254,22 @@ main {
   .info,
   .prokes {
     width: 100%;
+    padding: 1.5rem;
+  }
+
+  .info__icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
   }
 
   .dresscode__title,
   .dresscode__description {
     position: relative;
     top: 33%;
+  }
+
+  .prokes li img {
+    width: 18%;
   }
 }
