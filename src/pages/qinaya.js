@@ -8,6 +8,8 @@ import kids from "../assets/images/kids.png";
 import facemask from "../assets/images/img-facemask.png";
 import wash from "../assets/images/img-wash.png";
 import distancing from "../assets/images/img-distancing.png";
+import iconWA from "../assets/images/icon-whatsapp-384.png";
+import iconIG from "../assets/images/icon-instagram-384.png";
 import { Helmet } from "react-helmet";
 
 const Qinaya = ({ location }) => {
@@ -23,6 +25,7 @@ const Qinaya = ({ location }) => {
       <Helmet>
         <title>Qinaya's Birthday</title>
       </Helmet>
+
       <main>
         <div className="ornament-left">
           <div className="ornament-left-first"></div>
@@ -99,9 +102,7 @@ const Qinaya = ({ location }) => {
                 </li>
                 <li>
                   <img src={wash} alt="wash hands" />
-                  <p>
-                    Mencuci tangan
-                  </p>
+                  <p>Mencuci tangan</p>
                 </li>
                 <li>
                   <img src={distancing} alt="distancing" />
@@ -111,7 +112,32 @@ const Qinaya = ({ location }) => {
             </div>
           </div>
           <div className="section">
-            <div className="footer">It's gonna be sweet</div>
+            <div className="caption">
+              It's
+              <br />
+              gonna be
+              <br />
+              sweet
+            </div>
+          </div>
+
+          <div className="footer">
+            <p>By dbeekin.weddingorganizer</p>
+            <div className="footer__icons">
+              <div className="footer__icons__whatsapp-icon">
+                <a href="https://wa.me/6285757682227" target="_blank">
+                  <img src={iconWA} alt="icon WA" />
+                </a>
+              </div>
+              <div className="footer__icons__instagram-icon">
+                <a
+                  href="https://instagram.com/dbeekin.weddingorganizer/"
+                  target="_blank"
+                >
+                  <img src={iconIG} alt="icon IG" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
