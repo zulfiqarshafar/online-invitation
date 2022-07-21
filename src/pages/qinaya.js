@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/birthday.css";
+import qinaya from "../assets/images/qinaya.png";
 import castle from "../assets/images/castle.png";
 import calendar from "../assets/images/icons8-calendar-96.png";
 import watch from "../assets/images/icons8-watch-96.png";
@@ -34,6 +35,9 @@ const Qinaya = ({ location }) => {
         <div className="content">
           <div className="section">
             <div className="guest">
+              <div className="guest__image">
+                <img src={qinaya} alt="Main" />
+              </div>
               <span className="guest__text">
                 Hi, {guest} <br />
                 you are invited
@@ -125,7 +129,11 @@ const Qinaya = ({ location }) => {
             <p>By dbeekin.weddingorganizer</p>
             <div className="footer__icons">
               <div className="footer__icons__whatsapp-icon">
-                <a href="https://wa.me/6285757682227" target="_blank">
+                <a
+                  href="https://wa.me/6285757682227"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img src={iconWA} alt="icon WA" />
                 </a>
               </div>
@@ -133,6 +141,7 @@ const Qinaya = ({ location }) => {
                 <a
                   href="https://instagram.com/dbeekin.weddingorganizer/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img src={iconIG} alt="icon IG" />
                 </a>

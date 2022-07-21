@@ -84,6 +84,10 @@ main {
   text-align: center;
 }
 
+.guest__image {
+  margin-bottom: 1.5em;
+}
+
 .guest__text {
   margin-bottom: 1em;
 }
@@ -123,6 +127,7 @@ main {
   color: rgb(182, 53, 182);
 }
 
+.guest__image,
 .event__image {
   display: flex;
   align-items: flex-start;
@@ -130,6 +135,7 @@ main {
   height: 45%;
 }
 
+.guest__image img,
 .event__image img {
   width: 30vw;
 }
@@ -253,10 +259,12 @@ main {
     font-size: 4rem;
   }
 
+  .guest__image,
   .event__image {
     align-items: flex-start;
   }
 
+  .guest__image img,
   .event__image img {
     width: 60vw;
   }
